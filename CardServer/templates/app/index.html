@@ -1,0 +1,25 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>CardShark</h1>
+    <p class="lead">Transatlantic Poker? No problem!</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            Login to get access to your cards.
+        </p>
+        <p><a class="btn btn-default" href="login/">Login &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Set up a new game</h2>
+        <p>Enter the admin section to establish a new game and enroll players.</p>
+        <p><a class="btn btn-default" href="admin/">Admin &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
