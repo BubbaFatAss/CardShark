@@ -27,7 +27,7 @@ def contact(request):
         'app/contact.html',
         {
             'title':'Contact',
-            'message':'Your contact page.',
+            'message':'CardShark is a hobby project, so support will be limited.',
             'year':datetime.now().year,
         }
     )
@@ -40,7 +40,7 @@ def about(request):
         'app/about.html',
         {
             'title':'About',
-            'message':'Your application description page.',
+            'message':'Card sharing across the internet.',
             'year':datetime.now().year,
         }
     )
